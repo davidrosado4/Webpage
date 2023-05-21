@@ -343,7 +343,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   width: 100%;
   height: 800px;
   background-color: white;
-  background-image: url('');
+  /*background-image: url('');*/
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -413,4 +413,80 @@ transform: rotate(360deg);
 .sharingan-fade {
 /* Fade the icon to 0 opacity */
 opacity: 0.1;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* SKILLS BAR
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #002321, #005e4a, #69b3a2);
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+#js-bar {
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 100%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#node-bar {
+    animation: node-fill 2s forwards;
+}
+
+@keyframes node-fill {
+    100% {
+        width: 60%;
+    }
+}
+#last-bar {
+    animation: last-fill 2s forwards;
+}
+
+@keyframes last-fill {
+    100% {
+        width: 30%;
+    }
 }
