@@ -908,7 +908,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @keyframes last-fill {
     100% {
-        width: 60%;
+        width: 40%;
     }
 }
 #last2-bar {
@@ -917,6 +917,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @keyframes last2-fill {
     100% {
-        width: 30%;
+        width: 20%;
     }
 }
