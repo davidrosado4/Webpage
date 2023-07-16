@@ -977,7 +977,6 @@ body {
     z-index: 2;
     visibility: hidden;
     opacity: 0;
-    overflow: hiden;
     transition: 0.64s ease-in-out;
 }
 .popup-inner {
