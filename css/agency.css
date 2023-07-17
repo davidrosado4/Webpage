@@ -1002,9 +1002,8 @@ body {
 .popup__text h1 {
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 300;
     margin-bottom: 2rem;
-    text-transform: uppercase;
     color: #0a0a0a;
 }
 .popup__text p {
