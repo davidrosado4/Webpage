@@ -1,7 +1,6 @@
-# My personal website
+# My personal webpage
+
+This repository gives the code for my webpage. You can visit at:
 
 https://davidrosado4.github.io/davidrosado.github.io/
 
-The website is currently in process. Be patient!
-
-![](https://geps.dev/progress/50)
